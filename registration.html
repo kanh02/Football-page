@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" >
+        <link rel="shortcut icon" type="image/png" href="images/super.jpg"/>
+        <title> Northside youth soccer leage</title>
+    </head>
+	       <header>
+                    <div class="head">
+                            <div><h1><span class="resalt">Northside Youth Soccer League</span></h1></div>
+                            <div><img class="logo" src="images/nysl_logo.png" alt="images/nysl_logo.png"></div> 
+                    </div>
+				    <div class="subhead">Data Player</div>
+            </header>
+		<body>
+			<div class="general">
+		<p align=center>&nbsp;</p>
+			<div class="res">	
+				<div class="out">
+				<table class="result">
+				  <tr >
+					<th align="center">Data Personal</th>
+					<th align="center">PLAYER</th>
+				  </tr>
+				<script language="javascript">
+				var args = location.search.substr(1).split('&');
+				for (var i = 0; i < args.length; ++i) {
+				  var parts = args[i].split('=');
+				  if (parts != null) {
+					var field = parts[0];
+					var value = parts[1];
+					if (value == null) {
+					  value = "null"
+					}
+					else {
+					  value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+					}
+					document.writeln('<tr><td align="center">' + field + '</td>');
+					document.writeln('<td align="center">' + value + '</td></tr>');
+				  }
+				}
+				</script>
+				</table>
+			</div>
+			</div>
+			</div>
+			<div class="menu">
+                 <ul class="bar"> 
+                   <li><a class="boton" id="active" href="index.html">Back Home</a></li>
+                 </ul>
+			</div>
+		</body>
+</html>
