@@ -97,7 +97,7 @@ h5{
 	font-size: 30px;
 	text-align: center;
 }
-h6 {
+h6{
 	color:darkgreen;
 	font-size: 20px;
 	margin: 0% 0% 5% 9%;
@@ -211,11 +211,6 @@ form{
 	margin: 0% 0% 2% 0%;
 }
 .positions{
-	display: flex;
-	justify-content: space-around;
-	margin: 0% 0% 2% 0%;
-}
-.position2{
 	display: flex;
 	justify-content: space-around;
 	margin: 0% 0% 2% 0%;
